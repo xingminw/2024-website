@@ -30,16 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        My research is to develop practical, deployable transportation solutions grounded in formal theoretical methods, including mathematical modeling, data science, machine learning, network science, and optimization, while leveraging cutting-edge technologies like AI and connected and automated vehicles (CAVs).
-        
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
   # - block: collection
   #   id: papers
   #   content:
@@ -72,7 +62,7 @@ sections:
         I am actively seeking a tenure-track assistant professor position related to transportation research, including transportation engineering, industrial engineering, and data science!
         {{% /callout %}}
 
-        - **09/2024**: I co-organized the work shop ["Vehicle Trajectory Data Camp"](https://i24motion.org/camp) at ITSC 2024 at Edmonton. Come and join our discussion! I will serve as the moderator for the second half of this session and am looking foward to meeting you at Edmonton!
+        - **09/2024**: I co-organized the work shop [Vehicle Trajectory Data Camp](https://i24motion.org/camp) at ITSC 2024 at Edmonton. Come and join our discussion! I will serve as the moderator for the second half of this session and am looking foward to meeting you at Edmonton!
         - **09/2024**: I am incredibly honored to share that my PhD dissertation has been awarded the **INFORMS TSL Best Dissertation Award**. This award is the oldest and most prestigious recognition for doctoral dissertations in the transportation science and logistics area, and I am deeply humbled to receive it. I will give a talk regarding this during 2024 INFORMS Annual Meeting, in the session titled MD35 - TSL Dissertation Award. The session is scheduled on Monday, October 21 at 2:15 pm in room Summit-427. Looking forward to seeing you in Seattle!
         - **08/2024**: I am glad to share that my PhD dissertation was selected as the finalist of IEEE ITSS Best Dissertation Award. 
         - **06/2024**: Our work ["Traffic light optimization with low penetration rate vehicle trajectory data"](https://www.nature.com/articles/s41467-024-45427-4) has been featured in [The Wall Street Journal](https://www.wsj.com/tech/personal-tech/google-green-light-traffic-light-optimization-992e4252)! "They use data gathered directly from new, internet-connected vehicles or from navigation apps on their drivers’ phones to help municipalities adjust the timing of their traffic lights, making them more responsive to real-world traffic patterns."
@@ -80,9 +70,6 @@ sections:
         - **02/2024**: Our paper ["Traffic light optimization with low penetration rate vehicle trajectory data"](https://www.nature.com/articles/s41467-024-45427-4) was recently accepted and is now online in *Nature Communications*. See the news from [University of Michigan](https://news.umich.edu/improving-traffic-signal-timing-with-a-handful-of-connected-vehicles/), [AP News](https://apnews.com/article/smarter-traffic-signals-north-carolina-michigan-757d6151e85565e9656d7b95c6e72490). 
         - **02/2024**: My new personal webiste is online! 
         - **08/2023**: I successfully defended my Dissertation titled ["Traffic Signal Optimization with Connected Vehicle Trajectories"](https://deepblue.lib.umich.edu/handle/2027.42/177983) advised by Dr. Henry Liu.
-      design:
-        spacing:
-          padding: [0, 0, 0, 0]
   - block: collection
     content:
       title: Recent Publications
