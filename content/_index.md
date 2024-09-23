@@ -51,26 +51,16 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: markdown
     id: news
     content:
@@ -90,6 +80,19 @@ sections:
         - **02/2024**: Our paper ["Traffic light optimization with low penetration rate vehicle trajectory data"](https://www.nature.com/articles/s41467-024-45427-4) was recently accepted and is now online in *Nature Communications*. See the news from [University of Michigan](https://news.umich.edu/improving-traffic-signal-timing-with-a-handful-of-connected-vehicles/), [AP News](https://apnews.com/article/smarter-traffic-signals-north-carolina-michigan-757d6151e85565e9656d7b95c6e72490). 
         - **02/2024**: My new personal webiste is online! 
         - **08/2023**: I successfully defended my Dissertation titled ["Traffic Signal Optimization with Connected Vehicle Trajectories"](https://deepblue.lib.umich.edu/handle/2027.42/177983) advised by Dr. Henry Liu.
+      design:
+        spacing:
+          padding: [0, 0, 0, 0]
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   # - block: collection
   #   id: news
   #   content:
